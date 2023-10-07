@@ -36,6 +36,7 @@ textarea {
 /* --- Custom CSS --- */
 body {
   font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
   min-height: 100vh;
   background-color: blanchedalmond;
   display: flex;
@@ -45,6 +46,11 @@ body {
 }
 body h1 {
   font-size: 2rem;
+}
+body button {
+  font-weight: bold;
+  padding: 5px 10px;
+  margin: 10px;
 }
 body img {
   padding: 50px;

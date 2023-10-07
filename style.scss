@@ -37,6 +37,7 @@ font-size: 100%;
 
 body {
   font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
   min-height: 100vh;
   background-color: blanchedalmond;
 
@@ -47,11 +48,12 @@ body {
   h1 {
     font-size: 2rem;
   }
+  button {
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 10px;
+  }
   img {
-    // height: 500px;
-    // width: 500px;
-    // object-fit: cover;
-
     padding: 50px;
   }
 }
